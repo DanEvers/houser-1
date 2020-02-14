@@ -1,0 +1,28 @@
+.Dashboard {
+  width: 100vw;
+  height: calc(100vh - 10vh);
+  background-color: #afd4c0;
+  padding: 0px 10%;
+}
+
+.dashboard-container {
+  width: 100%;
+  height: calc(100vh - 10vh);
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  background-color: #e5f4ec;
+  padding: 10px;
+}
+
+.dashboard-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #3b5249;
+}
+
+.dashboard-title-content button {
+  background-color: #8aea92;
+  font-weight: bold;
+}
