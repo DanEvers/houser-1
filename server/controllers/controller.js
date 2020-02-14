@@ -7,10 +7,9 @@ module.exports = {
   },
   addNewHouse: async (req, res) => {
     const db = req.app.get("db");
-    const { name, address, city, state, zip } = req.body;
-    console.log("hit");
+    const { name, address, city, state, zip, img, mortgage, rent } = req.body;
 
-    const house = await db.add_new_house([name, address, city, state, zip]);
+    const house = await db.add_new_house([name, address, city, state, zip, img, mortgage, rent]);
     res.status(200).send(house);
   },
   deleteHouse: async (req, res) => {
