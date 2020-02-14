@@ -1,3 +1,7 @@
+## Preview
+
+![Preview of main page](2020-02-14-165247_1204x989_scrot.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

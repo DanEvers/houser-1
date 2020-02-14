@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Header.css";
+import icon from "./icon.svg";
 
 class Header extends Component {
   constructor(props) {
@@ -9,7 +10,10 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <h1>Houser</h1>
+        <div>
+          <img src={icon} alt="logo" />
+          <h1>Houser</h1>
+        </div>
       </header>
     );
   }

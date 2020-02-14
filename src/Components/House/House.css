@@ -1,4 +1,37 @@
 .House {
+  background-color: #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  /* height: 360px; */
+  margin: 20px;
+  padding: 20px 40px;
+}
+
+.image-container {
+  margin: 0px 10px;
+}
+
+.text-container {
+  /* height: 100%; */
+  /* width: 100%; */
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.delete-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.delete-container > button {
+  /* text-decoration: none; */
   background-color: #fec2c2;
-  padding: 2px;
+  border: none;
+  font-size: 26px;
 }

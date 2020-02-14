@@ -1,0 +1,45 @@
+.Wizard {
+  height: calc(100vh - 8vh);
+  width: 100vw;
+  background-color: #afd4c0;
+  display: flex;
+  justify-content: center;
+}
+
+.wizard-container {
+  width: 80%;
+  height: 100%;
+  background-color: #e5f4ec;
+}
+
+#special-button {
+  background-color: #e5f4ec;
+}
+
+.wizard-cancel-button {
+  background-color: #fec2c2;
+  border: none;
+  font-size: 26px;
+}
+
+.wizard-container > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  background-color: #dedede;
+}
+
+.wizard-container form {
+  height: 350px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wizard-container form button {
+  border: none;
+  font-size: 26px;
+  background-color: #8aea92;
+}

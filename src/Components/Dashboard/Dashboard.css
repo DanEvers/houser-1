@@ -1,28 +1,43 @@
 .Dashboard {
+  height: calc(100vh - 8vh);
   width: 100vw;
-  height: calc(100vh - 10vh);
   background-color: #afd4c0;
-  padding: 0px 10%;
+  display: flex;
+  justify-content: center;
 }
 
 .dashboard-container {
-  width: 100%;
-  height: calc(100vh - 10vh);
-  display: flex;
-  flex-direction: column;
-  align-items: space-between;
+  width: 80%;
+  height: 100%;
   background-color: #e5f4ec;
-  padding: 10px;
 }
 
 .dashboard-title {
+  height: 8%;
+  margin: 0px 20px;
+  border-bottom: 1px solid #010000;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #3b5249;
 }
 
-.dashboard-title-content button {
+.dashboard-title button {
   background-color: #8aea92;
   font-weight: bold;
+  border: none;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.listings-container {
+  margin: 0px 20px;
+  height: calc(100% - 10%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: scroll;
+}
+
+.listings-container > h2 {
+  padding: 20px 0px;
 }

@@ -48,7 +48,7 @@ class Dashboard extends Component {
               <button>Add New Property</button>
             </Link>
           </div>
-          <div>
+          <div className="listings-container">
             <h2>Home Listings</h2>
             {mappedHouses}
           </div>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-// import axios from "axios";
 import store, { STEPTWO } from "../../store.js";
+import "./StepTwo.css";
 
 class StepTwo extends Component {
   constructor(props) {
@@ -48,7 +48,6 @@ class StepTwo extends Component {
 
     return (
       <div>
-        <h1>Step 2</h1>
         <form onSubmit={this.nextStep}>
           <label htmlFor="img">Image URL</label>
           <input

@@ -1,10 +1,19 @@
 header {
   width: 100vw;
-  height: 10vh;
+  height: 8vh;
   color: #e5f4ec;
   background-color: #519872;
   font-weight: bold;
+}
+
+header > div {
+  margin-left: 200px;
   display: flex;
   align-items: center;
-  padding: 0px 10%;
+}
+
+header img {
+  height: 110px;
+  filter: invert(100%);
+  margin: 0px 10px;
 }

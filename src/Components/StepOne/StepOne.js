@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-// import axios from "axios";
 import store, { STEPONE } from "../../store.js";
+import "./StepOne.css";
 
 class StepOne extends Component {
   constructor(props) {
@@ -60,7 +60,6 @@ class StepOne extends Component {
 
     return (
       <div>
-        <h1>Step 1</h1>
         <form onSubmit={this.nextStep}>
           <label htmlFor="name">Name</label>
           <input
